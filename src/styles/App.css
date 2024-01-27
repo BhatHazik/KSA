@@ -1,0 +1,9 @@
+@font-face {
+    font-family: ksaFont;
+    src: url(../Assets/NotoSans-Regular.ttf);
+  }
+
+  body{
+    font-family: ksaFont;
+  }
+  

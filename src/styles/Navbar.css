@@ -1,0 +1,30 @@
+
+
+
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+    gap: 1vw;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:#0f1a20 ;
+
+}
+
+.nav-links h4{
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+}
