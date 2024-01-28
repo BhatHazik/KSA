@@ -5,16 +5,20 @@ nav{
     height: 15vh;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
+    padding-top: 1vw;
 
 }
 
 .nav-links{
+    width: 40%;
     display: flex;
+    gap: 2vw;
     align-items: center;
-    height: 100%;
-    width: max-content;
-    gap: 1vw;
+    justify-content: right;
+    margin-right: 3vw;
+
+    
 }
 
 .nav-links a {
@@ -24,7 +28,30 @@ nav{
 }
 
 .nav-links h4{
-    font-size: 1vw;
+    font-size: 0.95vw;
     padding: 0;
     margin: 0;
+    position: relative ;
+    transition: all ease-in-out 0.3s;
+    overflow: hidden;
+    font-weight: 500;
+    
 }
+
+.nav-links h4::after{
+    content: "";
+    height: 15%;
+    width: 100%;
+    background-color: #FFE156;
+    position: absolute;
+    left: -100%;
+    bottom: 0%;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.nav-links h4:hover::after{
+   left: 0;
+
+}
+
