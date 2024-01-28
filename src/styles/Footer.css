@@ -41,6 +41,7 @@
 
 .footer-links a{
     width: max-content;
+    color: #00A7E1;
     
 }
 
@@ -89,4 +90,9 @@
     color: #F4F4F9;
     font-size: 1.3vw;
     font-weight: 500;
+    margin-bottom: 0.4vw;
+}
+
+.footer-developer a{
+    color: #00A7E1;
 }

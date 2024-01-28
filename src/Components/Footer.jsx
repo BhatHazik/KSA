@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <div className='footer-developer'>
         <h2>Developer And Founder Of This App</h2>
-        <h3>Proudly Crafted In Kashmir, With Passion By HAZIK HILAL</h3>
+        <h3>Proudly Crafted In Kashmir, With Passion By</h3><a href='https://bhathazik.github.io/my-portfolio/'>HAZIK HILAL</a>
       </div>
       </div>
       
