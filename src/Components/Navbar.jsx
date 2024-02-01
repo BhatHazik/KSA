@@ -7,9 +7,11 @@ const Navbar = () => {
     <nav>
       <img src={logo}/>
       <div className='nav-links'>
-        <h4><Link>Worksheets</Link></h4>
+        <h4><Link to='/work'>Worksheets</Link></h4>
         <h4><Link>Results</Link></h4>
         <h4><Link>Top Rankers</Link></h4>
+        <h4><Link to='/login'>Login</Link></h4>
+        
       </div>
     </nav>
   )

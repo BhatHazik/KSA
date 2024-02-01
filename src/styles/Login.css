@@ -1,0 +1,115 @@
+
+
+.signin-main-div{
+    height: 90vh;
+    /* background-image: url(../Assets/signup-bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in{
+    background-color: #FFE156;
+    height: 65vh;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:rgb(0, 0, 0);
+    width: 30vw;
+   
+    
+  
+}
+
+.signin-image{
+    height: 65.1vh;
+}
+
+.signin-image img{
+    height: 65vh;
+    width: 30vw;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.signin-items{
+    
+    height: 57vh;
+    width: 80%;
+    text-align: center;
+}
+
+.signin-items input{
+    border: 0;
+	 border-bottom: 1px solid rgb(0, 0, 0);
+	 border-radius: 0;
+	 padding: 0 0 0.25rem 0;
+	 font-size: .8rem;
+	 color: rgb(0, 0, 0);
+     width: 80%;
+	 background: transparent;
+     margin-bottom: 7vh;
+     font-size: 1vw;
+    font-weight: 600;
+
+}
+
+.signin-items h2{
+    margin: 0;
+}
+
+.sign-in form{
+    margin-top: 30px;
+}
+
+.signin-items input:focus{
+    outline: none;
+}
+
+.signin-items input::placeholder{
+    color: rgb(49, 47, 47);
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.sign-in button{
+    margin-top: 1rem;
+	 border: 0;
+	 border-radius: 200px;
+	 width: 70%;
+	 padding: 0.85rem;
+	 font-size: 1rem;
+	 color: #ffffff;
+	 background: #22d7ff;
+     cursor: pointer;
+}
+
+.sign-in button:focus {
+    outline: none;
+}
+
+.sign-in a {
+    
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+   
+}
+
+.opposite-btn{
+    cursor: pointer;
+    margin: 2px 0 0 0;
+
+}
