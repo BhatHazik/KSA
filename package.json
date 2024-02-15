@@ -1,6 +1,6 @@
 {
-  "homepage": "https://BhatHazik.github.io/ksa",
   "name": "ksa",
+  "homepage": "https://BhatHazik.github.io/ksa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
