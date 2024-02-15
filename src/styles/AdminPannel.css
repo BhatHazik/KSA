@@ -1,0 +1,23 @@
+.admin-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    height: 75vh;
+    width: 100%;
+}
+
+.admin-wrapper h4{
+    height: 10vh;
+    width: 30vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+}
+
+.admin-wrapper a {
+    color: white;
+    text-decoration: none;
+
+}

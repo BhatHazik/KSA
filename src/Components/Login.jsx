@@ -47,7 +47,7 @@ const handleSubmit = async(e) =>{
       const {adminToken} = response.data;
       localStorage.setItem('adminToken', adminToken);
       setLoading(true);
-      navigate('/signup');
+      navigate('/admin');
     }
     else{
       setMessage('Something went wrong')

@@ -8,4 +8,4 @@ const Worksheets = () => {
   )
 }
 
-export default Worksheets
+export default Worksheets;
